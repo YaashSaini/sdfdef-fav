@@ -69,25 +69,25 @@ window.addEventListener("load", function() {
 });
 window.addEventListener("load", function() {
     var c2 = document.querySelector(".c2");
-    if (isInViewport(c1)) {
+    if (isInViewport(c2)) {
         c2.classList.add("animation");
     }
 });
 window.addEventListener("load", function() {
     var c3 = document.querySelector(".c3");
-    if (isInViewport(c1)) {
+    if (isInViewport(c3)) {
         c3.classList.add("animation");
     }
 });
 window.addEventListener("load", function() {
     var c4 = document.querySelector(".c4");
-    if (isInViewport(c1)) {
+    if (isInViewport(c4)) {
         c4.classList.add("animation");
     }
 });
 window.addEventListener("load", function() {
     var bb = document.querySelector(".c4");
-    if (isInViewport(c1)) {
+    if (isInViewport(bb)) {
         bb.classList.add("animation");
     }
 });
